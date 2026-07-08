@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanskar Gupta — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="wrap">
+      <div class="logo">sanskar<span>.qa</span></div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" onclick="closeNav()">Home</a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#skills" onclick="closeNav()">Skills</a>
+        <a href="#experience" onclick="closeNav()">Experience</a>
+        <a href="#projects" onclick="closeNav()">Projects</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+      </div>
+      <button class="nav-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="hero-content">
+          <h1>Hello, I'm <span class="accent-word">Sanskar Gupta</span></h1>
+          <h2 class="hero-role">Quality Assurance Engineer</h2>
+        </div>
+        <p class="lede">Automation‑focused QA Engineer with 2+ years designing scalable Playwright frameworks,
+          validating APIs and databases, and shipping quality releases in Agile teams.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View my work →</a>
+          <a href="https://drive.google.com/uc?export=download&id=1AMBB83lNwcrDO1uaQYMvWkooj-SHsvwo"
+            class="btn-primary">
+            <i class="fa-solid fa-download"></i>
+            Download CV
+          </a>
+        </div>
+        <div class="social-links">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/sanskargupta-6339121b7/" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/sanskar5575" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:ravigupta812705@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="badge-float">
+          <div class="num">2+</div>
+          <div class="lbl">Yrs Exp</div>
+        </div>
+        <a class="download-btn"
+          href="https://drive.google.com/file/d/1dm1HS3JoriV1FTsH0Uc6t8a_W_tZDaAE/view?usp=sharing" target="_blank">
+          <div class="photo-frame">
+            <img src="assets/Sanskar_Gupta.png" alt="assets/sanskar-portrait.png" class="hero-photo">
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-tag">About</div>
+      <h2 class="section-title">Quality is the feature nobody notices — until it's missing.</h2>
+      <div class="about-grid">
+        <div>
+          <p>I'm an automation‑focused Quality Assurance Engineer with over two years of experience building scalable
+            Playwright frameworks for enterprise applications. My day‑to‑day spans UI, API, database, and end‑to‑end
+            testing using Java, TypeScript, and SQL.</p>
+          <p>At CData Software, I designed and maintained a Page‑Object‑Model automation framework with reusable
+            fixtures, custom utilities, and CI reporting — cutting manual regression effort by 80% and scripting time by
+            60% with AI‑assisted tooling.</p>
+          <p>I thrive in Agile teams, partnering closely with developers during code review and release cycles to catch
+            defects before they reach production.</p>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="num">100+</div>
+            <div class="lbl">Automated test cases built</div>
+          </div>
+          <div class="stat-card">
+            <div class="num">80%</div>
+            <div class="lbl">Manual regression effort reduced</div>
+          </div>
+          <div class="stat-card">
+            <div class="num">60%</div>
+            <div class="lbl">Scripting effort cut with AI tooling</div>
+          </div>
+          <div class="stat-card">
+            <div class="num">3</div>
+            <div class="lbl">Browsers covered — Chromium, Firefox, WebKit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-tag">Skills</div>
+      <h2 class="section-title">Toolkit &amp; expertise</h2>
+      <p class="section-desc">The languages, frameworks, and tools I use to keep releases fast and dependable.</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3><span class="ico">&gt;_</span> Languages</h3>
+          <div class="tag-row"><span class="tag">Java</span><span class="tag">JavaScript</span><span
+              class="tag">TypeScript</span><span class="tag">SQL</span></div>
+        </div>
+        <div class="skill-card">
+          <h3><span class="ico">&gt;_</span> Automation &amp; Testing</h3>
+          <div class="tag-row"><span class="tag">Playwright</span><span class="tag">POM</span><span class="tag">API
+              Testing</span><span class="tag">Regression</span><span class="tag">Cross-Browser</span><span
+              class="tag">JDBC Testing</span></div>
+        </div>
+        <div class="skill-card">
+          <h3><span class="ico">&gt;_</span> Databases</h3>
+          <div class="tag-row"><span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">SQL
+              Server</span><span class="tag">MongoDB</span></div>
+        </div>
+        <div class="skill-card">
+          <h3><span class="ico">&gt;_</span> Cloud &amp; CI/CD</h3>
+          <div class="tag-row"><span class="tag">Azure</span><span class="tag">Azure DevOps</span><span
+              class="tag">Jenkins</span></div>
+        </div>
+        <div class="skill-card">
+          <h3><span class="ico">&gt;_</span> Dev Tools</h3>
+          <div class="tag-row"><span class="tag">Git</span><span class="tag">GitHub</span><span
+              class="tag">Postman</span><span class="tag">Jira</span><span class="tag">IntelliJ IDEA</span><span
+              class="tag">VS Code</span></div>
+        </div>
+        <div class="skill-card">
+          <h3><span class="ico">&gt;_</span> Frameworks</h3>
+          <div class="tag-row"><span class="tag">React</span><span class="tag">Spring Boot</span><span
+              class="tag">Tailwind CSS</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-tag">Experience</div>
+      <h2 class="section-title">Where I've worked</h2>
+      <div class="exp-card">
+        <div class="exp-head">
+          <div>
+            <h3>Quality Assurance Engineer</h3>
+            <span class="company">CData Software</span>
+          </div>
+          <span class="period">Nov 2023 — Present</span>
+        </div>
+        <ul class="exp-list">
+          <li>Built and maintained 100+ Playwright end-to-end test cases in TypeScript, cutting manual regression effort
+            by 80% and raising release confidence.</li>
+          <li>Designed a scalable Playwright automation framework with Page Object Model, reusable fixtures, custom
+            utilities, and CI reporting.</li>
+          <li>Implemented parallel execution and cross-browser testing across Chromium, Firefox, and WebKit.</li>
+          <li>Integrated the Playwright regression suite into an Azure DevOps CI pipeline with automated execution and
+            reporting.</li>
+          <li>Used AI-assisted tools to speed up test scenario generation, cutting scripting effort by 60%.</li>
+          <li>Ran REST API validation in Postman and backend verification via SQL across multiple database platforms.
+          </li>
+          <li>Triaged and resolved high/medium priority defects, raising PRs and validating fixes before release.</li>
+          <li>Tested JDBC drivers across relational databases, cloud warehouses, and file-based sources for connectivity
+            and query execution.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-tag">Projects</div>
+      <h2 class="section-title">Things I've built</h2>
+      <p class="section-desc">Personal projects where I get to be developer and tester at once.</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-head">
+            <h3>AskQL — AI-Powered SQL Assistant</h3>
+            <a class="plink" href="https://github.com/sanskar5575/AskQL" target="_blank"><i
+                class="fa-brands fa-github"></i></a>
+          </div>
+          <span class="project-date">May 2026 — Jun 2026</span>
+          <ul class="exp-list">
+            <li>Converts natural language into optimized SQL queries and explanations via REST APIs.</li>
+            <li>Reusable React components with strict input validation and robust error handling.</li>
+            <li>Tested end-to-end with API and SQL query verification.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">React</span><span class="tag">Java</span><span class="tag">Spring
+              Boot</span><span class="tag">SQL</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-head">
+            <h3>Groupie — Real-Time Chat App</h3>
+            <a class="plink" href="https://github.com/sanskar5575/Groupie" target="_blank"><i
+                class="fa-brands fa-github"></i></a>
+          </div>
+          <span class="project-date">Dec 2025</span>
+          <ul class="exp-list">
+            <li>Room-based real-time chat where multiple users create or join named rooms.</li>
+            <li>Java Spring Boot backend with WebSocket (STOMP) for bi-directional messaging and MongoDB for persistent
+              storage.</li>
+            <li>Live React frontend with no page refresh.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">React</span><span class="tag">Spring Boot</span><span
+              class="tag">WebSocket</span><span class="tag">MongoDB</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <div class="section-tag">Background</div>
+      <h2 class="section-title">Education &amp; certifications</h2>
+      <div class="split-two">
+        <div class="info-card">
+          <h3>Education</h3>
+          <div class="edu-item">
+            <div class="deg">B.Tech, Computer Science &amp; Engineering</div>
+            <div class="school">Galgotias College of Engineering and Technology, Greater Noida</div>
+            <div class="meta">Aug 2019 — Jun 2023 · CGPA 8.36/10</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <h3>Certifications</h3>
+          <div class="cert-item">
+            <span class="cbullet">▹</span>
+            <div>
+              <div class="ctitle">Oracle Java Badge</div>
+              <div class="cdesc">Core Java concepts and object-oriented programming.</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <span class="cbullet">▹</span>
+            <div>
+              <div class="ctitle">Playwright Web Automation Testing</div>
+              <div class="cdesc">Udemy — E2E testing, POM, API testing, assertions.</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <span class="cbullet">▹</span>
+            <div>
+              <div class="ctitle">Introduction to SQL</div>
+              <div class="cdesc">University of Michigan (Coursera) — joins, aggregations, DB fundamentals.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-tag">Contact</div>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="section-desc">Have a role, project, or just want to talk testing strategy? I'd love to hear from you.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-list">
+          <a href="mailto:ravigupta812705@gmail.com">
+            <span class="icn">@</span> ravigupta812705@gmail.com
+          </a>
+          <a href="tel:+916388486625">
+            <span class="icn">☎</span> +91-6388486625
+          </a>
+          <a href="https://www.linkedin.com/in/sanskargupta-6339121b7/" target="_blank"><span class="icn">in</span>
+            LinkedIn</a>
+          <a href="https://github.com/sanskar5575" target="_blank"><span class="icn">gh</span> GitHub</a>
+          <a><span class="icn">⚲</span> Bangalore, India</a>
+        </div>
+        <form id="contactForm" action="https://formspree.io/f/xbdvedzv" method="POST">
+          <div class="field-row">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit" class="submit" id="submitBtn">Send message</button>
+          <p id="formStatus" class="mono" style="font-size:0.82rem;color:var(--text-muted);display:none;"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">© 2026 <span>Sanskar Gupta</span>. Built with care, tested with Playwright.</div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
